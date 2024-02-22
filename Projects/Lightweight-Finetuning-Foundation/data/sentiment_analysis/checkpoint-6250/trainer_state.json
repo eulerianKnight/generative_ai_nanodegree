@@ -1,0 +1,102 @@
+{
+  "best_metric": 0.24746543169021606,
+  "best_model_checkpoint": "./data/sentiment_analysis/checkpoint-6250",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 6250,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.08,
+      "learning_rate": 0.00192,
+      "loss": 0.611,
+      "step": 500
+    },
+    {
+      "epoch": 0.16,
+      "learning_rate": 0.00184,
+      "loss": 0.4255,
+      "step": 1000
+    },
+    {
+      "epoch": 0.24,
+      "learning_rate": 0.00176,
+      "loss": 0.3971,
+      "step": 1500
+    },
+    {
+      "epoch": 0.32,
+      "learning_rate": 0.00168,
+      "loss": 0.3916,
+      "step": 2000
+    },
+    {
+      "epoch": 0.4,
+      "learning_rate": 0.0016,
+      "loss": 0.337,
+      "step": 2500
+    },
+    {
+      "epoch": 0.48,
+      "learning_rate": 0.00152,
+      "loss": 0.3251,
+      "step": 3000
+    },
+    {
+      "epoch": 0.56,
+      "learning_rate": 0.0014399999999999999,
+      "loss": 0.3103,
+      "step": 3500
+    },
+    {
+      "epoch": 0.64,
+      "learning_rate": 0.00136,
+      "loss": 0.3311,
+      "step": 4000
+    },
+    {
+      "epoch": 0.72,
+      "learning_rate": 0.00128,
+      "loss": 0.3035,
+      "step": 4500
+    },
+    {
+      "epoch": 0.8,
+      "learning_rate": 0.0012,
+      "loss": 0.303,
+      "step": 5000
+    },
+    {
+      "epoch": 0.88,
+      "learning_rate": 0.0011200000000000001,
+      "loss": 0.2915,
+      "step": 5500
+    },
+    {
+      "epoch": 0.96,
+      "learning_rate": 0.0010400000000000001,
+      "loss": 0.2801,
+      "step": 6000
+    },
+    {
+      "epoch": 1.0,
+      "eval_accuracy": 0.913,
+      "eval_loss": 0.24746543169021606,
+      "eval_runtime": 772.3781,
+      "eval_samples_per_second": 32.368,
+      "eval_steps_per_second": 8.092,
+      "step": 6250
+    }
+  ],
+  "logging_steps": 500,
+  "max_steps": 12500,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 2,
+  "save_steps": 500,
+  "total_flos": 6580725657600000.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
