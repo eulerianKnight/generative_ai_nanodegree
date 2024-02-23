@@ -133,7 +133,7 @@ def train(
         batch_D_accuracy = []
 
         # We will train the Discriminator on a batch that is made by
-        # half real data and half fake data. Then we will train the
+        # half-real data and half-fake data. Then we will train the
         # Generator on a batch of only fake data.
         # Remember that we have configured the dataloader to return
         # batches of half batch_size, so the total batch size that the
